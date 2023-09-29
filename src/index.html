@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.scss">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text" data-aos="fade-left" data-aos-duration="3000">
+                O aniversário do Leslliel começa em<br>
+                <span>0d 0h 0m 0s</span>
+            </p>
+            <div class="infos-bar" data-aos="fade-right" data-aos-duration="3000">
+                <img class="infos-bar__image" src="./images/foto 3x4 leslliel.png" alt="Desenho 3x4 Leslliel">
+                <div class="infos-bar__texts">
+                    <h3 class="infos-bar__texts__title">
+                        Festa de 23 ANOS
+                    </h3>
+                    <p class="infos-bar__texts__text">
+                        Convido você para a minha comemoração, mais detalhes abaixo: <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam, qui quasi minus dolor similique accusantium atque ipsum hic, sapiente reprehenderit consequatur veniam delectus cupiditate aliquid doloribus odit corporis facere.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="entertainment entertainment--local">
+        <div class="container"  data-aos="fade-right">
+            <div class="entertainment__details">
+                <h2 class="entertainment__details__title">Local</h2>
+                <p class="entertainment__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis officiis dolores? Ab quia minima mollitia nemo quibusdam fuga repudiandae. Vel minima voluptates corrupti expedita quam explicabo magni adipisci voluptatibus.
+                </p>
+            </div>
+            <img class="entertainment__image" src="./images/LocalFesta.png" alt="cidade">
+        </div>
+    </section>
+    <section class="entertainment entertainment--entreterimento entertainment--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="entertainment__details">
+                <h2 class="entertainment__details__title">Entreterimento</h2>
+                <p class="entertainment__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis officiis dolores? Ab quia minima mollitia nemo quibusdam fuga repudiandae. Vel minima voluptates corrupti expedita quam explicabo magni adipisci voluptatibus.
+                </p>
+            </div>
+            <img class="entertainment__image" src="./images/EntreterimentoLocal.png" alt="Fliperama">
+        </div>
+    </section>
+    <section class="entertainment entertainment--comida">
+        <div class="container"  data-aos="fade-right">
+            <div class="entertainment__details">
+                <h2 class="entertainment__details__title">Comida</h2>
+                <p class="entertainment__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis officiis dolores? Ab quia minima mollitia nemo quibusdam fuga repudiandae. Vel minima voluptates corrupti expedita quam explicabo magni adipisci voluptatibus.
+                </p>
+            </div>
+            <img class="entertainment__image" src="./images/comidaFesta.png" alt="Comida">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+.hero {
+    padding-top: 85px;
+    padding-bottom: 48px;
+    background-image: url(../images/CakesBirthday.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        position: relative;
+    }
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0500FF;
+        opacity: .35;
+        content: '';
+    }
+
+    &__text {
+        margin-bottom: 42px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 56px;
+        text-align: center;
+    }
+}
